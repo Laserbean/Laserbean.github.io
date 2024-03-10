@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Laserbean</title>
+    <link rel="stylesheet" href="static/styles.css">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script> -->
+
+    <script>
+
+        document.addEventListener('DOMContentLoaded', () => {
+            document.querySelectorAll('button').forEach(button => {
+                button.onclick = () => {
+                    document.querySelector("#hello").style.color = button.dataset.color;
+                }
+            });
+        });
+
+        // document.addEventListener('DOMContentLoaded', function () {
+        //     document.querySelector('select').onchange = function () {
+        //         document.querySelector('#hello').style.color = this.value;
+        //     }
+        // });
+
+    </script>
+
+</head>
+
+<body class="def_body">
+
+
+    <h1>
+        Colors
+    </h1>
+    <div1>
+        <a href="index.html">Back</a>
+    </div1>
+
+    <div>
+        <h2 id="hello">Hello</h2>
+        <button data-color="red">Red</button>
+        <button data-color="blue">Blue</button>
+        <button data-color="green">Green</button>
+    </div>
+
+
+
+
+    <footer>
+        <p>&copy; 2024 Laserbean</p>
+    </footer>
+
+</body>
+
+<html>

@@ -1,0 +1,56 @@
+/* adsf */
+
+
+:root {
+    --primary-color: #6b9bcf;
+    --secondary-color: #6c757d;
+
+    --background-color-light: #e9eff6;
+    --background-color-dark: #343a40;
+
+    --text-color-light: #343a40;
+    --text-color-dark: #f8f9fa;
+}
+
+body {
+    background-color: var(--background-color-light);
+    color: var(--text-color-light);
+}
+
+
+/* @media (prefers-color-scheme: dark) {
+    body {
+        background-color: var(--background-color-dark);
+        color: var(--text-color-dark);
+    }
+
+} */
+
+.def_body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    background-color: var(--primary-color);
+}
+
+header {
+    background-color: var(--primary-color);
+
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    text-align: center;
+}
+
+footer {
+    background-color: var(--primary-color);
+
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
